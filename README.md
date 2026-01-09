@@ -19,7 +19,7 @@ This project focuses on classifying lung tissue histopathology images into three
 During the original project, I created a Convolutional Neural Network with an overall accuracy of 98% for training data but a 32% accuracy on my test data creating a very overfit model. To combat this I changed the model parameters, the original model started at 32 nodes and then increased to 128 then classified my data into 1 of the 3 categories. The new model I created, starts at 256 nodes, and goes down to 32 then classifies the data. This new method greatly improved results for the test data as shown in the image below.
 
 ## Results
-[Confusion Matrix](Confusion_matrix_image.png)
+![Confusion Matrix](Confusion_matrix_image.png)
 
 
 
